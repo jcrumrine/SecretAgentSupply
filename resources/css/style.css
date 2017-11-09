@@ -1,0 +1,19 @@
+body {
+  color: white;
+}
+
+header {
+  text-transform: uppercase;
+}
+
+.logo {
+  background-color: black;=
+}
+
+.banner {
+  background-image: url("../images/moto.jpg");
+}
+
+nav {
+  background-color: firebrick;
+}
