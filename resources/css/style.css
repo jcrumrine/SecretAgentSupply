@@ -1,13 +1,44 @@
+html {
+  font-size: 18px;
+  background-color: white;
+}
+
 body {
-  color: white;
+  font-family: Helvetica;
 }
 
 header {
   text-transform: uppercase;
 }
 
+div {
+  display: block;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .logo {
-  background-color: black;=
+background-color: black;
+color: white;
+}
+
+.logo .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.logo span {
+  margin-top: 0.66rem;
+  margin-bottom: 0.44rem;
 }
 
 .banner {
