@@ -43,14 +43,39 @@ color: white;
 
 .banner {
   background-image: url("../images/moto.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  height: 25rem;
+
+}
+
+.headline {
+  background-color: black;
+  color: white;
+  position: relative;
+  width: 20rem;
+  padding:2rem 3rem;
+  top: 9rem;
+}
+
+.headline h4 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.headline h1 {
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 nav {
   background-color: firebrick;
 }
 
-span {
-  background-color: black;
 }
 
 p {
