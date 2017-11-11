@@ -17,3 +17,15 @@ header {
 nav {
   background-color: firebrick;
 }
+
+span {
+  background-color: black;
+}
+
+p {
+  color: black;
+}
+
+footer {
+  background-color: black;
+}
