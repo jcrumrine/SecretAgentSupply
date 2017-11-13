@@ -21,8 +21,8 @@ div {
 }
 
 .logo {
-background-color: black;
-color: white;
+  background-color: black;
+  color: white;
 }
 
 .logo .container {
@@ -43,9 +43,9 @@ color: white;
 
 .banner {
   background-image: url("../images/moto.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 25rem;
 
 }
@@ -76,6 +76,10 @@ nav {
   background-color: firebrick;
 }
 
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
 }
 
 p {
@@ -84,4 +88,10 @@ p {
 
 footer {
   background-color: black;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
